@@ -7,7 +7,6 @@ import (
 func Land(plane *plane.Plane) string {
 	plane.Status = "landed"
 	return plane.Status
-
 }
 
 func Takeoff(plane *plane.Plane) string {
@@ -16,3 +15,7 @@ func Takeoff(plane *plane.Plane) string {
 }
 
 func main() {}
+
+// As an air traffic controller
+// To ensure safety
+// I want to prevent takeoff when weather is stormy

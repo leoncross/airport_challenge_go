@@ -18,11 +18,11 @@ func TestAirportLand(t *testing.T) {
 
 func TestAirportTakeoff(t *testing.T) {
 	var p1 = plane.Plane{"landed"}
+
 	actual := Takeoff(&p1)
 	want := "flying"
 
 	if want != actual {
 		t.Errorf("actual '%s' want '%s'", actual, want)
 	}
-
 }
