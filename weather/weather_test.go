@@ -8,7 +8,7 @@ import (
 var stubbed_sunny = func() time.Time { return time.Unix(0, 0) }
 var stubbed_stormy = func() time.Time { return time.Unix(5, 0) }
 
-func TestAirportWeather_sunny(t *testing.T) {
+func TestAirportWeather_S(t *testing.T) {
 	actual := WeatherCheck(stubbed_sunny)
 	want := "sunny"
 
