@@ -3,7 +3,6 @@ package main
 import (
 	"airport/plane"
 	"airport/weather"
-	"fmt"
 )
 
 func Land(plane *plane.Plane) string {
@@ -31,9 +30,4 @@ func Weather() bool {
 }
 
 func main() {
-	fmt.Println(Weather())
 }
-
-// As an air traffic controller
-// To ensure safety
-// I want to prevent takeoff when weather is stormy

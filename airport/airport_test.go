@@ -1,5 +1,3 @@
-// https://github.com/stretchr/testify
-
 package main
 
 import (
